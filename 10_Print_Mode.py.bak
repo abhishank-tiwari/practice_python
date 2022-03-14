@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os 
 os.getcwd()           
 #get current working directory
-dataa = pd.read_csv(".\csv\exms.csv")
+dataa = pd.read_csv("exms.csv")
 dataa
-#Find the name of column whose variance is to be found
-print(dataa["age"].var())
+#Find the name of column whose mode is to be found
+print(dataa["Earning"].mode())

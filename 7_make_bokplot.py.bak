@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os 
 os.getcwd()           
 # get current working directory
-dataset = pd.read_csv(".\csv\exms.csv")
+dataset = pd.read_csv(".\csv\exams.csv")
 dataset  
 dataset.columns
 dataset.boxplot("age")
