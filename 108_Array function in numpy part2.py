@@ -1,0 +1,22 @@
+#Numpy array function Part 2
+#Creating a two dimensional array
+import numpy as np
+np.random.seed(122)
+matrix = np.random.randint(1,21,9).reshape(3,3)
+print(" Original two dimenional array is ","\n",matrix)
+print("Sum of elements of array ")
+print(np.sum(matrix))
+print("Finding minimum of the array elements using min() function")
+print(np.min(matrix)) 
+print("Finding maximum of the array elements using max() function ")
+print(np.max(matrix))
+print("Find row wise minimum element ")
+print(np.min(matrix , axis = 1))
+print("Column wise maximum element ")
+print(np.max(matrix, axis = 0))
+print(" find row wise sum ")
+print(np.sum(matrix , axis = 1))
+print("Find cumulative sum of complete matrix ")
+print(np.cumsum(matrix))
+print("Find column wise cumulative sum ")
+print(np.cumsum(matrix , axis = 0))
