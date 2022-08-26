@@ -14,6 +14,8 @@ class student:
 			return True
 		else:
 			return False
+            
+
 		
 s1 = student(55,32)
 s2 = student(63,49)
@@ -24,3 +26,4 @@ if s1>s2:
 	print("S1 wins")
 else:
 	print("S2 wins")
+    
